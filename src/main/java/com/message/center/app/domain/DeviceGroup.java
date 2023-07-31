@@ -31,6 +31,7 @@ public class DeviceGroup {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
+  @NotBlank
   private String name;
 
   @Column(name = "guid")

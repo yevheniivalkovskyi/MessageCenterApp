@@ -29,6 +29,7 @@ public class AlertKeyword {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
+  @NotBlank
   private String keyword;
 
   @Column(name = "guid")
